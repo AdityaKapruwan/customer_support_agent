@@ -1,0 +1,501 @@
+query,intent
+"Why was I charged twice for my last purchase?",billing
+"I see an unexpected charge on my credit card statement.",billing
+"Can I get an itemized invoice for order #8492?",billing
+"My credit card was charged even though the transaction failed.",billing
+"Where can I view my billing history?",billing
+"Can you change the billing address on my account?",billing
+"Is there a late fee if I pay my bill next week?",billing
+"Why is my monthly statement higher than usual?",billing
+"I was overcharged for shipping costs.",billing
+"Can I update my payment details for the upcoming invoice?",billing
+"What payment methods do you accept for monthly billing?",billing
+"My payment went through but my account still shows unpaid.",billing
+"How do I download PDF receipts for tax purposes?",billing
+"I received a billing notification but I didn't place any order.",billing
+"Can I split the bill between two credit cards?",billing
+"Why am I being charged sales tax on an exempt purchase?",billing
+"Is there an extra charge for international transactions?",billing
+"I need a VAT invoice with my company details.",billing
+"Please fix the error on my monthly billing statement.",billing
+"Why did my automatic payment fail yesterday?",billing
+"Can I set up direct debit for my recurring payments?",billing
+"My promotional discount wasn't applied to my bill.",billing
+"What happens if my card expires before the billing date?",billing
+"Why is there a $1 pending charge on my bank account?",billing
+"I got billed for a feature I never activated.",billing
+"How do I update the credit card number saved on file?",billing
+"Can you send the invoice to my accounting email address?",billing
+"I was charged full price instead of the sale price.",billing
+"Can I change my billing cycle from monthly to annual?",billing
+"Why did the currency conversion fee apply to my invoice?",billing
+"The checkout page charged my card twice due to a browser glitch.",billing
+"How can I check when my next payment date is?",billing
+"I need clarification on line item 3 of my latest bill.",billing
+"Does the price on the invoice include taxes and duties?",billing
+"Can you issue a revised receipt with my updated business address?",billing
+"My bank declined the charge because of fraud protection.",billing
+"Why is my total bill different from the checkout summary?",billing
+"How do I remove a saved debit card from billing settings?",billing
+"I was charged for an addon service I canceled last week.",billing
+"Is there any processing fee for paying via PayPal?",billing
+"I need to request a formal proof of payment for order 99231.",billing
+"Why was my account billed twice in the same month?",billing
+"Can I pay my outstanding balance using store credit?",billing
+"The promo code WELCOME20 didn't deduct from my total bill.",billing
+"Please verify why my payment status is marked as pending.",billing
+"I paid my invoice via bank transfer, when will it update?",billing
+"Can I get a billing breakdown for team members on my plan?",billing
+"Why did I receive a past due notice when I already paid?",billing
+"Is it possible to postpone my upcoming payment due date?",billing
+"Where can I update my corporate tax ID for future invoices?",billing
+"I would like to request a full refund for order #10492.",refund
+"The item arrived damaged and I want my money back.",refund
+"How long does it take for a refund to show up on my credit card?",refund
+"I returned the package last Friday, when will I get refunded?",refund
+"The product doesn't work as advertised, I demand a refund.",refund
+"Can I get a refund if I open the original packaging?",refund
+"I bought the wrong size and want to return it for a refund.",refund
+"Where is my refund? It has been over two weeks.",refund
+"The app crashed repeatedly so I want a refund on my purchase.",refund
+"Can I get a refund to my original payment method or only store credit?",refund
+"The package never arrived, please refund my payment immediately.",refund
+"How do I initiate a return and refund process online?",refund
+"I was sent the wrong item and need a full refund right away.",refund
+"Is there a restocking fee deducted from my refund amount?",refund
+"My subscription renewed automatically without notice, can I get a refund?",refund
+"I accidentally ordered two items instead of one, please refund one.",refund
+"What is your policy regarding partial refunds for missing parts?",refund
+"The quality is very poor, I'm returning this for a full refund.",refund
+"The event was canceled so I need a refund for my tickets.",refund
+"Can I get a refund for shipping fees since delivery was late?",refund
+"I canceled my service within 14 days, where is my money?",refund
+"Please credit my account back for the returned boots.",refund
+"I need to return an item bought as a gift, how does the refund work?",refund
+"Is the return shipping label free or deducted from the refund?",refund
+"I got an email saying refund processed, but my bank hasn't received it.",refund
+"Can I exchange the item instead of getting a money refund?",refund
+"I bought this on sale, am I still eligible for a full refund?",refund
+"The item broke after 2 days of normal use, I want a refund.",refund
+"How do I check the real-time status of my return refund?",refund
+"Can I receive my refund via bank transfer instead of card?",refund
+"The software is incompatible with my PC, please refund me.",refund
+"I changed my mind after buying, can I return it for a refund?",refund
+"I paid with a gift card, how will the refund be issued?",refund
+"Why did I only get a partial refund instead of the full price?",refund
+"I never received the service I paid for, refund my account.",refund
+"Is there a deadline for requesting a refund after delivery?",refund
+"Can you process a manual refund for ticket reference #7781?",refund
+"I was charged after canceling within the free trial period, please refund.",refund
+"The box was completely empty upon arrival, I need a refund.",refund
+"Who do I contact to dispute a charge and get a refund?",refund
+"I lost the original receipt, can I still get a refund?",refund
+"The course content was completely misleading, I want a refund.",refund
+"Can I get a refund if the item went on sale right after I bought it?",refund
+"I dropped off the return at FedEx, please release my refund.",refund
+"The product caused an allergic reaction, I need a return and refund.",refund
+"How many business days does a bank refund take to process?",refund
+"Please issue a refund for the duplicate transaction on my account.",refund
+"I didn't receive the digital download link, please refund my card.",refund
+"Is store credit the only refund option for clearance items?",refund
+"I would like to process a warranty claim refund for a defective unit.",refund
+"Where is my order right now?",order_tracking
+"Track my package for order number #58392.",order_tracking
+"Can you give me the courier tracking link for my shipment?",order_tracking
+"My tracking number isn't working on the carrier website.",order_tracking
+"When is my delivery expected to arrive?",order_tracking
+"Has my parcel been shipped out yet?",order_tracking
+"Is my package stuck at the local distribution warehouse?",order_tracking
+"Why hasn't the tracking status updated in the last 3 days?",order_tracking
+"Can I get real-time location updates for my shipment?",order_tracking
+"The tracking says delivered, but I haven't received anything.",order_tracking
+"Who is the delivery driver or carrier handling my package?",order_tracking
+"I lost my tracking number, can you look up my order status?",order_tracking
+"Is there any delay with my international shipment in customs?",order_tracking
+"Why is my order status still showing as Processing?",order_tracking
+"Can you notify me via SMS when the package is out for delivery?",order_tracking
+"Can I change the shipping address while the item is in transit?",order_tracking
+"What does In Transit mean for order #48920?",order_tracking
+"Is expedited shipping available for my current tracked order?",order_tracking
+"Where can I find the tracking code in my order confirmation email?",order_tracking
+"The estimated arrival date was yesterday, where is my package?",order_tracking
+"Has my item left the fulfillment center yet?",order_tracking
+"Why does DHL say shipment information received for over a week?",order_tracking
+"Can I track multiple items from the same order separately?",order_tracking
+"Can you check if my package requires a signature upon delivery?",order_tracking
+"My parcel was redirected to a pickup point, how do I find which one?",order_tracking
+"Why is the tracking showing returned to sender?",order_tracking
+"How do I check the delivery status without logging into my account?",order_tracking
+"What time of day will UPS deliver my package today?",order_tracking
+"Is my order arriving in a single package or split shipments?",order_tracking
+"The tracking history shows attempt failed, what should I do?",order_tracking
+"Can I get the contact number of the local courier delivering my order?",order_tracking
+"Where do I enter my tracking number to see the current location?",order_tracking
+"Why is my shipment held at customs?",order_tracking
+"Can you re-send the tracking link for order 19042?",order_tracking
+"How long does standard ground shipping usually take to arrive?",order_tracking
+"My order was placed 5 days ago, is there a tracking update yet?",order_tracking
+"Does weather cause delays in my package tracking?",order_tracking
+"The tracking scan says Out for Delivery since 8 AM, when will it arrive?",order_tracking
+"Is there a way to track the delivery van on a live map?",order_tracking
+"Can I hold my shipment at a local post office for pickup?",order_tracking
+"My tracking says shipment exception, what does that mean?",order_tracking
+"Why does the destination address on tracking look incorrect?",order_tracking
+"Can I schedule a specific time slot for my package delivery?",order_tracking
+"How do I track an order placed as a guest user?",order_tracking
+"Has order #90214 passed through local sorting center yet?",order_tracking
+"The package weight on the tracking site seems wrong, can you check?",order_tracking
+"How frequently does the carrier tracking page refresh?",order_tracking
+"Can you confirm if my backordered item has shipped yet?",order_tracking
+"My tracking status changed to Damaged in transit, what now?",order_tracking
+"How can I trace my package across international borders?",order_tracking
+"I want to cancel my order #39281 immediately.",order_cancellation
+"How do I cancel an order I placed 10 minutes ago?",order_cancellation
+"Can I cancel my order before it ships out?",order_cancellation
+"Please cancel my purchase, I ordered by mistake.",order_cancellation
+"Is it too late to cancel order #88412?",order_cancellation
+"I need to stop the shipment and cancel my order right now.",order_cancellation
+"Can I cancel just one item from my order instead of the whole thing?",order_cancellation
+"Why is the cancel order button greyed out on my account dashboard?",order_cancellation
+"I bought the wrong model, please cancel my transaction immediately.",order_cancellation
+"How long after placing an order can I still cancel it?",order_cancellation
+"I found a better price elsewhere, so I wish to cancel this order.",order_cancellation
+"Can you cancel my backordered item that hasn't shipped yet?",order_cancellation
+"I entered the wrong shipping address, can I cancel and reorder?",order_cancellation
+"Is there any fee or penalty for canceling a pending order?",order_cancellation
+"I received an email saying my order was canceled, why did that happen?",order_cancellation
+"Please confirm that my order cancellation request was received.",order_cancellation
+"Can an order be canceled once it is marked Preparing for dispatch?",order_cancellation
+"I want to cancel my pre-order for the upcoming product release.",order_cancellation
+"I didn't mean to complete the checkout, please cancel it now.",order_cancellation
+"What is the deadline to request an order cancellation?",order_cancellation
+"Please void order #77123 before it goes to fulfillment.",order_cancellation
+"I tried to cancel online but got an error message, please help.",order_cancellation
+"Can I reverse an order cancellation if I change my mind?",order_cancellation
+"Can customer support cancel my order on their end right now?",order_cancellation
+"I ordered duplicate items by accident, please cancel the second one.",order_cancellation
+"Why was my order automatically canceled by your system?",order_cancellation
+"If I cancel my order, how fast will the hold on my card be released?",order_cancellation
+"Can I request cancellation via email or live chat?",order_cancellation
+"The estimated delivery date is too late, I want to cancel my order.",order_cancellation
+"Please cancel order 44910 and issue store credit.",order_cancellation
+"Is it possible to cancel an order that has already been dispatched?",order_cancellation
+"I forgot to use a coupon code, can I cancel and re-order with the code?",order_cancellation
+"How can a guest user submit an order cancellation request?",order_cancellation
+"Please abort the shipment of my package if possible.",order_cancellation
+"My order has been pending for 2 weeks, please just cancel it.",order_cancellation
+"Can I cancel my order if the item is currently out of stock?",order_cancellation
+"I want to stop my recent transaction before payment settles.",order_cancellation
+"Please cancel the furniture order #55192.",order_cancellation
+"Will I get a confirmation email once the order is canceled?",order_cancellation
+"Can I cancel an order that contains customized or personalized items?",order_cancellation
+"The merchant delayed my shipment twice, I want to cancel now.",order_cancellation
+"Please revoke my order purchase order reference #11029.",order_cancellation
+"Why did I get a notification that part of my order was canceled?",order_cancellation
+"Can I request order cancellation through the mobile app?",order_cancellation
+"I want to terminate my recent online order before it leaves warehouse.",order_cancellation
+"Is cancellation guaranteed if I submit a request within 1 hour?",order_cancellation
+"Please withdraw my order from the processing queue.",order_cancellation
+"I no longer need this item, kindly cancel order #66301.",order_cancellation
+"Why can't I cancel my order directly from the order history page?",order_cancellation
+"Can you cancel my order and redirect funds to another item?",order_cancellation
+"The app keeps crashing every time I try to open it.",technical_support
+"I am getting an error code 500 when trying to log in.",technical_support
+"The website is not loading properly on Google Chrome.",technical_support
+"How do I fix the Connection Timed Out error on your app?",technical_support
+"My screen goes completely black after clicking the submit button.",technical_support
+"Why is the video playback freezing continuously?",technical_support
+"The software update failed to install on my device.",technical_support
+"I am unable to connect my Bluetooth device to the app.",technical_support
+"The audio is not working during live streaming calls.",technical_support
+"How do I clear the cache to resolve display glitches?",technical_support
+"Why am I getting an Invalid Session pop-up message?",technical_support
+"The file upload feature gives an error saying format not supported.",technical_support
+"My sync is stuck at 99% and will not complete.",technical_support
+"The search bar is not returning any search results.",technical_support
+"How do I troubleshoot camera permissions on your mobile app?",technical_support
+"Why does the desktop client keep disconnecting from the server?",technical_support
+"The page elements are misaligned and overlapping on mobile.",technical_support
+"I am experiencing high latency and severe lag while using the service.",technical_support
+"How do I reset app settings back to factory default?",technical_support
+"The export to PDF feature is generating blank pages.",technical_support
+"Why is my microphone muted automatically by the app?",technical_support
+"I cannot save my changes in the profile settings section.",technical_support
+"The system displays a database connection error message.",technical_support
+"How do I update the application to the latest version?",technical_support
+"The browser extension stopped working after the recent browser update.",technical_support
+"Why are push notifications not arriving on my phone?",technical_support
+"The keyboard shortcuts are not responding on MacOS.",technical_support
+"I am getting a Permission Denied error when opening files.",technical_support
+"The application crashes whenever I attach a large file.",technical_support
+"How can I fix the infinite loading spinner on the dashboard?",technical_support
+"Why is the dark mode toggle not saving my preferences?",technical_support
+"The map view is not displaying location pins correctly.",technical_support
+"I am receiving an SSL certificate validation error on your site.",technical_support
+"Why does the application consume 100% of my CPU memory?",technical_support
+"The biometric fingerprint login is failing consistently.",technical_support
+"How do I perform a clean reinstall of the software?",technical_support
+"The download link gives a 404 Not Found error page.",technical_support
+"Why is data not syncing between my phone and tablet?",technical_support
+"I am stuck on a loading screen after entering two-factor code.",technical_support
+"The print layout is cutting off the right side of the document.",technical_support
+"How do I enable hardware acceleration in the app settings?",technical_support
+"Why is the offline mode not saving my local edits?",technical_support
+"The application throws an unhandled exception error on startup.",technical_support
+"How do I resolve network proxy blocking issues with your API?",technical_support
+"The drop-down menu disappears before I can click an option.",technical_support
+"Why is the password field not accepting special characters?",technical_support
+"The web player is showing a media format decode error.",technical_support
+"How do I fix font rendering issues on Windows 11?",technical_support
+"The app screen is flickering when I switch between tabs.",technical_support
+"I need technical assistance resolving a script error on page load.",technical_support
+"I forgot my password and cannot sign into my account.",account_access
+"How do I reset my account password?",account_access
+"I am locked out of my account after multiple failed login attempts.",account_access
+"I didn't receive the password reset verification email.",account_access
+"How do I change the email address associated with my profile?",account_access
+"I lost access to my 2FA authenticator app, how do I log in?",account_access
+"Can you help me recover my old account?",account_access
+"My account was suspended, how can I reactivate it?",account_access
+"How do I update my mobile phone number for security SMS codes?",account_access
+"I think my account has been hacked or compromised.",account_access
+"How do I change my username or handle?",account_access
+"Why does it say User Account Not Found when I try to sign in?",account_access
+"How do I set up two-factor authentication (2FA)?",account_access
+"I am unable to log in using my Google or Facebook social account.",account_access
+"Can I merge two separate user accounts into one?",account_access
+"How do I permanently delete or close my user account?",account_access
+"Why am I not getting the OTP security code on my phone?",account_access
+"How do I update my security questions and answers?",account_access
+"Can I share account access with another family member?",account_access
+"How do I check active login sessions and logged-in devices?",account_access
+"I received an unauthorized login notification from a different city.",account_access
+"How do I change the primary email address on my corporate profile?",account_access
+"Can I log into my account on multiple devices at the same time?",account_access
+"Why does the system keep asking me to log in repeatedly?",account_access
+"How do I unlock my account after entering the wrong PIN?",account_access
+"I forgot my security PIN code, how do I recover it?",account_access
+"Can I sign in using biometric Face ID or fingerprint scan?",account_access
+"How do I revoke access for connected third-party applications?",account_access
+"Why is my account showing as inactive or archived?",account_access
+"How do I request a copy of my account data under GDPR?",account_access
+"I am unable to bypass the security verification step.",account_access
+"Can you resend the account activation link to my email?",account_access
+"How do I turn off two-step verification on my account?",account_access
+"My account was flagged for suspicious activity, how do I verify identity?",account_access
+"Can I transfer account ownership to another user email?",account_access
+"Why am I getting an error saying Email address already in use?",account_access
+"How do I add a secondary email address for account recovery?",account_access
+"Can I change the country or region specified in my account settings?",account_access
+"Why was I automatically logged out during my session?",account_access
+"How do I update my display name and profile picture?",account_access
+"I forgot the email address I used to register my account.",account_access
+"How do I restore a deleted account within the 30-day grace period?",account_access
+"Why does the password reset link say Expired or Invalid?",account_access
+"How do I set up single sign-on (SSO) for my enterprise account?",account_access
+"Can I log in using a phone number instead of an email address?",account_access
+"Where can I view my recent security login history?",account_access
+"How do I unblock my IP address from accessing my user profile?",account_access
+"Can customer support send me a temporary login link?",account_access
+"How do I update my communication preferences in account settings?",account_access
+"Why am I unable to update my user profile details?",account_access
+"How do I cancel my monthly subscription plan?",subscription
+"I want to upgrade my subscription from Basic to Pro.",subscription
+"Will my subscription automatically renew at the end of the month?",subscription
+"How do I downgrade my plan to a free tier?",subscription
+"What is the price difference between annual and monthly billing?",subscription
+"Can I pause my subscription for 2 months while I am on vacation?",subscription
+"How do I add extra user seats to my team subscription?",subscription
+"Is there a free trial period for the Premium plan?",subscription
+"Why was my subscription canceled without my request?",subscription
+"How do I claim a student discount for my subscription?",subscription
+"When does my current subscription period expire?",subscription
+"Can I switch my billing plan from monthly to yearly?",subscription
+"What features are included in the Enterprise subscription tier?",subscription
+"How do I reactivate a canceled subscription?",subscription
+"Is there any contract commitment for the monthly subscription?",subscription
+"Why did my subscription price increase this month?",subscription
+"Can I get a pro-rated refund if I downgrade my subscription today?",subscription
+"How do I manage multiple active subscriptions under one account?",subscription
+"Does the subscription include future software updates and features?",subscription
+"How do I redeem a promo code for 50% off my subscription?",subscription
+"What happens to my stored data if I cancel my subscription?",subscription
+"Can I transfer my subscription license to another person?",subscription
+"How do I check how many days are left on my free trial?",subscription
+"Why is my subscription status showing Past Due?",subscription
+"Is there a non-profit or educational discount for subscriptions?",subscription
+"Can I try the Pro features before committing to a paid plan?",subscription
+"How do I remove an add-on module from my active subscription?",subscription
+"Will I be notified before my annual subscription renews?",subscription
+"How do I cancel subscription auto-renewal in Google Play or App Store?",subscription
+"What is the difference between Individual and Family plans?",subscription
+"Can I change the payment method used for my recurring subscription?",subscription
+"Why was I charged for a subscription after opting out during trial?",subscription
+"How do I extend my trial period by another week?",subscription
+"Does the yearly plan offer 2 months free comparison to monthly?",subscription
+"How do I update the billing manager for our company subscription?",subscription
+"Why can't I access Premium features after paying for subscription?",subscription
+"Is there a usage cap on the unlimited subscription plan?",subscription
+"How do I cancel my subscription if I signed up through a third party?",subscription
+"Can I lock in the current subscription rate before prices go up?",subscription
+"What happens if my subscription payment fails multiple times?",subscription
+"How do I view my current active plan features and quotas?",subscription
+"Is there a family sharing option for the digital subscription?",subscription
+"Can I upgrade my subscription mid-cycle without losing remaining days?",subscription
+"How do I opt out of automatic plan upgrades?",subscription
+"Why did my plan downgrade automatically to free tier?",subscription
+"Can I customize a hybrid subscription plan for my enterprise?",subscription
+"Where do I view the subscription terms of service agreement?",subscription
+"How do I re-subscribe after deleting my previous subscription?",subscription
+"Are taxes included in the displayed monthly subscription price?",subscription
+"Can I pause automatic renewal without canceling the subscription immediately?",subscription
+"What are the dimensions and weight of this product?",product_information
+"Is this item compatible with Mac OS Ventura?",product_information
+"Does this product come with a manufacturer warranty?",product_information
+"What materials is this clothing product made of?",product_information
+"Is this device waterproof or water-resistant?",product_information
+"What is the battery life expectancy on a single charge?",product_information
+"Are replacement parts available for purchase separately?",product_information
+"Is this product in stock at the local store near me?",product_information
+"Does this electronic device support wireless fast charging?",product_information
+"What accessories are included in the box?",product_information
+"Is this product suitable for outdoor heavy-duty use?",product_information
+"How long is the standard warranty coverage period?",product_information
+"What colors and sizes are available for this model?",product_information
+"Can this speaker connect to multiple devices simultaneously?",product_information
+"Is this food product organic and gluten-free?",product_information
+"Where is this product manufactured or assembled?",product_information
+"What is the voltage requirement for international usage?",product_information
+"Does this monitor support 4K resolution at 120Hz?",product_information
+"How do I clean and maintain this leather jacket properly?",product_information
+"Is assembly required for this item upon arrival?",product_information
+"What are the system requirements to run this software?",product_information
+"Is this product safe for children under 3 years old?",product_information
+"How does model A differ from model B in performance?",product_information
+"Does this smart watch monitor heart rate and oxygen levels?",product_information
+"Are the instructions manual available to download in PDF format?",product_information
+"What is the shelf life or expiration date of this product?",product_information
+"Can I use third-party attachments with this vacuum cleaner?",product_information
+"Is this product eco-friendly and made from recycled materials?",product_information
+"What is the maximum weight capacity for this desk?",product_information
+"Does this laptop have an expandable RAM slot?",product_information
+"How loud is this machine during operation in decibels?",product_information
+"Is this product certified by energy safety standards?",product_information
+"What is the storage capacity of the internal drive?",product_information
+"Are the handles on this cookware heat resistant?",product_information
+"Does this software subscription support multi-language interfaces?",product_information
+"What type of charging port does this item use USB-C or Lightning?",product_information
+"Is this mattress suitable for side sleepers?",product_information
+"What is the range of the wireless remote control?",product_information
+"Are there any known compatibility issues with Android 14?",product_information
+"Can this unit be mounted on a wall with standard VESA mounts?",product_information
+"What is the output wattage of this power bank?",product_information
+"Is this fabric machine washable or dry clean only?",product_information
+"Does this camera come with a memory card included?",product_information
+"What is the precision tolerance of this measuring tool?",product_information
+"Are safety data sheets available for this chemical product?",product_information
+"Does this car seat meet federal crash test safety standards?",product_information
+"Can I see more detailed photos or 3D product previews?",product_information
+"What is the operating temperature range for this sensor?",product_information
+"Does this item come fully assembled or flat-packed?",product_information
+"Where can I read verified customer specifications and user manuals?",product_information
+"Are there any current promotions or discount codes available?",sales
+"Can I get a price quote for a bulk corporate order?",sales
+"I want to buy 50 units for my company, can I speak to sales?",sales
+"Do you offer any volume discounts for large purchases?",sales
+"Is there a price matching policy if I find this cheaper elsewhere?",sales
+"I am interested in purchasing an enterprise license, who do I contact?",sales
+"Can you send me a formal sales proposal and pricing tier sheet?",sales
+"Are there special discounts for non-profit organizations or schools?",sales
+"How can I request a live product demo with a sales representative?",sales
+"Will this item be on sale for Black Friday or Cyber Monday?",sales
+"Can I schedule a call with your sales team to discuss custom plans?",sales
+"Are there any trade-in offers available for older models?",sales
+"Can I get a personalized discount for a multi-year contract?",sales
+"Do you offer custom pricing for startup companies?",sales
+"I am a reseller, how do I apply for your wholesale sales program?",sales
+"Can I get a free sample product before placing a major order?",sales
+"What financing or installment payment options do you offer?",sales
+"Are there any bundle deals available if I purchase multiple items?",sales
+"How can I become an authorized distributor of your products?",sales
+"Is there a seasonal sale coming up anytime soon?",sales
+"Can you match the price on Amazon for this item?",sales
+"I have a large procurement request, where do I send the RFP?",sales
+"Do you offer special pricing for government agencies?",sales
+"Can I pre-order the next generation model before it launches?",sales
+"What is the minimum order quantity for custom branded items?",sales
+"Can a sales advisor assist me in choosing the right setup?",sales
+"Are there referral bonuses if I bring new business clients?",sales
+"How do I apply a promotional voucher code at checkout?",sales
+"Is white-glove delivery included in high-value orders?",sales
+"Can I get a custom quote tailored to our specific business needs?",sales
+"Do you offer leasing options for high-end equipment?",sales
+"Are there any exclusive perks for VIP or loyalty members?",sales
+"Can I split payment across multiple corporate purchase orders?",sales
+"Is tax exemption available for registered non-profit buyers?",sales
+"Can I lock in this promotional price for 30 days?",sales
+"What is the price breakdown for adding 100 extra user licenses?",sales
+"Do you have any end-of-year clearance sales currently active?",sales
+"Can a sales manager call me back at my business phone number?",sales
+"Are shipping costs waived for orders over $500?",sales
+"How do I claim my new customer welcome discount?",sales
+"Can I get a quote in Euros or British Pounds instead of USD?",sales
+"Are extended service contracts available for enterprise clients?",sales
+"How do I request a custom product demonstration for my team?",sales
+"Is there any discount if I pay the full annual fee upfront?",sales
+"What is the commission rate for your affiliate sales program?",sales
+"Can I combine two promotional discount codes on one order?",sales
+"Do you offer educational pricing for university students and staff?",sales
+"How do I get in touch with regional sales representatives?",sales
+"Can I get a written price guarantee for an upcoming contract?",sales
+"Are there any special incentives for renewing our enterprise deal early?",sales
+"I am extremely disappointed with the terrible customer service.",complaint
+"Your representative was extremely rude and unhelpful on the phone.",complaint
+"The item arrived broken due to terrible packaging quality.",complaint
+"I have been waiting on hold for over 45 minutes, this is unacceptable!",complaint
+"Your app is completely useless and full of bugs.",complaint
+"I've contacted support three times and nobody has replied to my tickets!",complaint
+"The delivery was delayed by a week without any notification.",complaint
+"This product is a complete waste of money and horrible quality.",complaint
+"I want to escalate this issue directly to a manager or supervisor.",complaint
+"Your service has degraded significantly over the last few months.",complaint
+"I was lied to by your sales representative about feature availability.",complaint
+"The package arrived damaged and soaking wet.",complaint
+"I am writing to lodge a formal complaint regarding order #99401.",complaint
+"You charged me hidden fees that were never mentioned at checkout!",complaint
+"This is the worst experience I have ever had with an online store.",complaint
+"I demand an immediate resolution to my ongoing issue.",complaint
+"Why is your technical support team so incompetent?",complaint
+"The driver threw my package over the fence and broke the contents.",complaint
+"You took my payment but never sent a confirmation email or receipt.",complaint
+"Your chatbot keeps looping and refuses to connect me to a human!",complaint
+"I've been transferred 5 times and still no one can solve my problem.",complaint
+"The item delivered was completely different from what was pictured.",complaint
+"Your return policy is misleading and unfair to customers.",complaint
+"I am going to leave a 1-star review on Trustpilot and social media.",complaint
+"The repair work done under warranty was completely sub-par.",complaint
+"I've been waiting for my refund for over a month, this is ridiculous.",complaint
+"Your website crashed right during checkout and debited my account twice.",complaint
+"The continuous system downtime is destroying our daily business operations.",complaint
+"Nobody answers customer support emails for days on end.",complaint
+"You failed to honor the advertised promotional discount code.",complaint
+"I am reporting this fraudulent charge to the Better Business Bureau.",complaint
+"The food delivered was cold, stale, and missing half the order.",complaint
+"Your app update completely broke my daily workflow.",complaint
+"I requested account cancellation weeks ago and you are still billing me!",complaint
+"The customer service agent hung up on me while I was explaining the issue.",complaint
+"Your delivery courier left my expensive parcel unattended on the street.",complaint
+"The replacement unit you sent me was also defective!",complaint
+"I am appalled by the lack of professionalism from your support team.",complaint
+"This subscription auto-renewal is a scam with zero advance warning.",complaint
+"The customer support phone number is constantly busy or disconnected.",complaint
+"I have lost money due to your service outage today.",complaint
+"Your system sent my private invoice to the wrong email address!",complaint
+"The product description on your website is completely false and deceptive.",complaint
+"I demand a formal apology and compensation for this major inconvenience.",complaint
+"Why does your company make it so hard to speak to a real person?",complaint
+"You sent me a used and dirty item marked as brand new!",complaint
+"The software update wiped all my saved preferences without warning.",complaint
+"Your team promised a callback within 24 hours and nobody called.",complaint
+"This is total negligence on your company's part.",complaint
+"I want to file an official complaint against agent ID #4092.",complaint

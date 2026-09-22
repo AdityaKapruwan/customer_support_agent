@@ -1,0 +1,16 @@
+{
+  "embedding_model_name": "all-MiniLM-L6-v2",
+  "classes": [
+    "account_access",
+    "billing",
+    "complaint",
+    "order_cancellation",
+    "order_tracking",
+    "product_information",
+    "refund",
+    "sales",
+    "subscription",
+    "technical_support"
+  ],
+  "num_classes": 10
+}
